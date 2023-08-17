@@ -1,0 +1,74 @@
+:root {
+    margin: 2.5%; 
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    position: relative;   
+        
+}
+
+
+.word-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid orange;
+    
+}
+
+.word-container a {
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/* Styling for the image-container */
+.image-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+   
+}
+
+.image-container img {
+    margin-right: 20px;
+    border: 5px solid goldenrod;
+    border-radius: 5px;
+}
+
+.image-details {
+    flex: 1;
+}
+
+.image-details h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.image-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.add-button button {
+    background-color:rgb(197, 29, 29);
+    color:black;
+    border: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Adding some spacing between sections */
+hr {
+    margin: 10px 0;
+}
+.hero{
+    font-size: 20px;
+    font-weight: bold;
+}
