@@ -2,11 +2,12 @@
     margin: 2.5%; 
     color: black;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 body {
     position: relative;   
-        
+    
 }
 
 
@@ -16,11 +17,13 @@ body {
     margin: 20px;
     padding: 20px;
     border: 1px solid orange;
-    
+    width: 1150px;
+    height: 30px;
+    background-color:linear-gradient(-45deg, #ff5733, #ff9900, #ff5733); ;
 }
 
 .word-container a {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
 
@@ -28,7 +31,7 @@ body {
 
 /* Styling for the image-container */
 .image-container {
-    display: flex;
+    display: block;
     align-items: center;
     margin: 20px;
    
@@ -58,17 +61,31 @@ body {
 .add-button button {
     background-color:rgb(197, 29, 29);
     color:black;
-    border: black;
+    border: white;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+    margin: 5px 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      
+
 }
 
-/* Adding some spacing between sections */
+
 hr {
     margin: 10px 0;
 }
-.hero{
-    font-size: 20px;
-    font-weight: bold;
+
+.hero {
+    width: 1220px;
+    height: 100px;
+    background: linear-gradient(-45deg, #ff5733, #ff9900, #ff5733);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
 }
+
