@@ -28,7 +28,7 @@
         <a href="#pinchos">Pinchos</a>
         <a href="#extras">Extras</a>
         <a href="#bebidas">Bebidas</a>
-        <a href="#bebidas-internacionales">Bebidas nacionales e internacionales</a>
+        <a href="#Bebidas Nacionales-Internacionales">Bebidas Nacionales e Internacionales</a>
         <a href="#postres">Postres</a>
     </div>
     <br><br>
