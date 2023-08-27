@@ -34,28 +34,34 @@ if ($result->num_rows > 0) {
             $resultado .= '</div><div class="hero" id="platos-dobles"> <h1>Platos Dobles</h1> </div><div class="row">';
             $veces++;
         } elseif ($row["tipo"] == "5" && $veces == 5) {
-            $resultado .= '</div><div class="hero" id="pinchos"> <h1>Pinchos</h1> </div><div class="row">';
+            $resultado .= '</div><div class="hero" id="extras"> <h1>Extras</h1> </div><div class="row">';
             $veces++;
         }elseif ($row["tipo"] == "6" && $veces == 6) {
-            $resultado .= '</div><div class="hero" id="pinchos"> <h1>Pinchos</h1> </div><div class="row">';
+            $resultado .= '</div><div class="hero" id="bebidas"> <h1>Bebidas</h1> </div><div class="row">';
+            $veces++;
+        }elseif ($row["tipo"] == "7" && $veces == 7) {
+            $resultado .= '</div><div class="hero" id="Bebidas Nacionales-Internacionales"> <h1>Bebidas Nacionales e Internacionales</h1> </div><div class="row">';
+            $veces++;
+        }elseif ($row["tipo"] == "8" && $veces == 8) {
+            $resultado .= '</div><div class="hero" id="postres"> <h1>Postes</h1> </div><div class="row">';
             $veces++;
         }
 
         $resultado .= '
-        <div class="card" style="width: 350px ; margin: 10px;">
+        <div class="card" style="width: 300px ; margin: 10px;">
          <img class="card-img-top" style="width: 250px; height: 200px;" src="' . $row["foto"] . '" width="250px">
             <div class="card-body">
                 <h4 class="card-title">' . $row["nombre"] . '</h4>
                 <p class="card-text">' . $row["descripcion"] . '</p>
                 <h2> L.' . $row["precio"] . '.00</h2>
                 <div class="add-button">
-                    <button data-type="' . $row["tipo"] . '">Ordenar </button>
+                      <button data-type="' . $row["tipo"] . '">Ordenar </button>
                 </div>
             </div>
         </div>';
         
 
-            if ($veces == 5) {
+            if ($veces == 10) {
             $resultado .= '</div>';
             $veces = 1;
         }
