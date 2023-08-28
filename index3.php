@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -19,19 +19,21 @@
         <p>Bienvenidos</p> 
     </div>
 
-    <br><br>   
-    <div class="word-container">
+    <br><br><br><br>   
+    <div class="word">
         <a href="#entradas">Entradas y Aperitivos</a>
         <a href="#platos-personales">Platos Personales</a>
         <a href="#platos-mixto">Platos Mixto</a>
         <a href="#platos-dobles">Platos Dobles</a>
+        <br><br>
         <a href="#pinchos">Pinchos</a>
         <a href="#extras">Extras</a>
         <a href="#bebidas">Bebidas</a>
-        <a href="#Bebidas Nacionales-Internacionales">Bebidas Nacionales e Internacionales</a>
         <a href="#postres">Postres</a>
+        <br><br>
+        <a href="#Bebidas Nacionales-Internacionales">Bebidas Nacionales e Internacionales</a>
     </div>
-    <br><br>
+    <br>
 
     <div class="container mt-5" id="cuerpo">
         
@@ -55,5 +57,8 @@
         }
         consultar();
     </script>
+
+   
+
 </body>
 </html>
